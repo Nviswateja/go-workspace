@@ -71,7 +71,7 @@ func CreateCustomer(c *gin.Context) {
 		return
 	}
 
-	// Create book
+	// Create Customer
 	customer := models.Customer{
 		FirstName:               input.FirstName,
 		LastName:                input.LastName,
